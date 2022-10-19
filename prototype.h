@@ -1,0 +1,10 @@
+void file_end();
+bool search(std::string);
+void file_circle(std::string);
+void find_define(std::string);
+std::string PARSER(std::string);
+std::string HELPERS(std::string, int&);
+bool COMENT(std::string str, bool& end);
+void define_change(std::string, std::string);
+extern std::ofstream file_o;
+extern std::map<std::string, std::string> mp;
